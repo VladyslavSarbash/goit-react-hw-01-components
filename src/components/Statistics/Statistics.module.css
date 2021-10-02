@@ -1,0 +1,35 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  composes: position;
+}
+
+.statList {
+  composes: position;
+  margin-bottom: 20px;
+}
+
+.item {
+  composes: position;
+  flex-direction: column;
+  width: 50px;
+  list-style: none;
+}
+
+.label {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.percentage {
+  color: white;
+}
